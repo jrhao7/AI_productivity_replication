@@ -1,0 +1,511 @@
+keyword,tier,tier_matching_rule,subcategory,job_posting_skill_name
+ML,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Machine Learning
+ml/ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Machine Learning
+ai/ml,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Machine Learning
+machine learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Machine Learning
+AI,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GeneralAI,Artificial Intelligence
+artificial intelligence,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Artificial Intelligence
+NLP,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Natural Language Processing (NLP)
+natural language processing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Natural Language Processing (NLP)
+computer vision,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Computer Vision
+zero shot learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Zero Shot Learning
+zero shot classification,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Zero Shot Learning
+rweka,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Rweka
+agentgpt,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,AgentGPT
+doc2vec,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Doc2vec
+few shot learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Few Shot Learning
+few shot prompting,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Few Shot Learning
+fasttext,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,fastText
+hugging face,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Hugging Face Transformers
+HF transformers,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Hugging Face Transformers
+HF transformer,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Hugging Face Transformers
+confusion matrix,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Confusion Matrix
+crewai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,CrewAI
+seq2seq,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Seq2Seq
+sequence to sequence,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Seq2Seq
+ai generated code,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,AI-Generated Code
+ai-generated code,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,AI-Generated Code
+ai code generation,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,AI-Generated Code
+hyperparameter optimization,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Hyperparameter Optimization
+agentic system,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Agent,Agentic Systems
+standard ml librar,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Standard ML Library
+SML Basis Library,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Standard ML Library
+pytorch,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,PyTorch Lightning
+rekognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Amazon Rekognition
+neural architecture compression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Neural Architecture Compression
+aws inferentia,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,AWS Inferentia
+CNTK,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Microsoft Cognitive Toolkit (CNTK)
+microsoft cognitive toolkit,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Microsoft Cognitive Toolkit (CNTK)
+dbscan,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Dbscan
+word2vec,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Word2Vec Models
+catboost,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,CatBoost (Machine Learning Library)
+caffe2,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Caffe2
+mxnet,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Apache MXNet
+feature learning,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Feature Learning
+feature representation learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Feature Learning
+RLHF,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Reinforcement Learning from Human Feedback (RLHF)
+reinforcement learning from human feedback,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Reinforcement Learning from Human Feedback (RLHF)
+openai gym,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,OpenAI Gym
+BERT,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,BERT (NLP Model)
+bert nlp,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,BERT (NLP Model)
+bidirectional encoder representations from transformer,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,BERT (NLP Model)
+adversarial ml,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Adversarial Machine Learning
+adversarial training,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Adversarial Machine Learning
+vowpal wabbit,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Vowpal Wabbit
+attention mechanism,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Attention Mechanisms
+retrieval augmented generation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Retrieval Augmented Generation
+retrieval-augmented generation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Retrieval Augmented Generation
+ONNX,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Open Neural Network Exchange (ONNX)
+neural net,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Open Neural Network Exchange (ONNX)
+open neural network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Open Neural Network Exchange (ONNX)
+LSTM,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Long Short-Term Memory (LSTM)
+long short-term memory,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Long Short-Term Memory (LSTM)
+weaviate,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Weaviate
+small language model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Small Language Model
+lightweight language model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Small Language Model
+compact language model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Small Language Model
+text summarization,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Text Summarization
+pos tagging,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Part-of-Speech Tagging
+part-of-speech tagging,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Part-of-Speech Tagging
+deepspeech,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,DeepSpeech
+autoencoders,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Autoencoders
+autoencoder,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Autoencoders
+spacy,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,SpaCy (NLP Software)
+word embedding,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Word Embedding
+neural architecture,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Neural Architecture Search (NAS)
+automated architecture search,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Neural Architecture Search (NAS)
+keras,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Keras (Neural Network Library)
+semantic parsing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Semantic Parsing
+llamaindex,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,LlamaIndex
+xgboost,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Xgboost
+DRL,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Deep Reinforcement Learning (DRL)
+reinforcement learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Deep Reinforcement Learning (DRL)
+ethical ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Ethical AI
+ai safety,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,AI Safety
+knowledge distillation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Knowledge Distillation
+model distillation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Knowledge Distillation
+amazon personalize,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Amazon Personalize
+multimodal model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Multimodal Models
+multi-modal model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Multimodal Models
+multimodal LLM,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Multimodal Models
+multi-modal LLM,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Multimodal Models
+multi-modal ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Multimodal Models
+pycaret,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,PyCaret
+semantic kernel,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Semantic Kernel
+kernel method,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Kernel Methods
+kernel-based method,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Kernel Methods
+ai/ml inference,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,AI/ML Inference
+amazon transcribe,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Amazon Transcribe
+neuro-symbolic ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Neuro-Symbolic AI
+neurosymbolic ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Neuro-Symbolic AI
+mlflow,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,MLflow
+ai copywriting,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,AI Copywriting
+ai-assisted copywriting,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,AI Copywriting
+CNNs,tier1,Case-sensitive matching; keyword cannot be part of a longer word,CV,Convolutional Neural Networks (CNN)
+neural network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Convolutional Neural Networks (CNN)
+langchain,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,LangChain
+LCEL,tier1,Case-sensitive matching; keyword cannot be part of a longer word,Agent,LangChain
+theano,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Theano (Software)
+langgraph,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,Langgraph
+lemmatization,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Lemmatization
+deep learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Deep Learning Methods
+ai alignment,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,AI Alignment
+machine learning model monitoring and evaluation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Machine Learning Model Monitoring And Evaluation
+GNNs,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Graph Neural Networks (GNNs)
+microsoft certified: azure ai engineer associate,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Microsoft Certified: Azure AI Engineer Associate
+lightgbm,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,LightGBM
+lgbmclassifier,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,LightGBM
+gpt-4,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,GPT-4
+gpt-o4,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,GPT-4
+gpt-o1,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,GPT-4
+word-sense disambiguation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Word-Sense Disambiguation
+word sense disambiguation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Word-Sense Disambiguation
+tensorflow,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,TensorFlow
+TFLite,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,TensorFlow
+TF-Serving,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,TensorFlow
+aws certified machine learning specialty,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,AWS Certified Machine Learning Specialty
+LLM,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Large Language Modeling
+large language model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Large Language Modeling
+LLMs,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Large Language Modeling
+stable diffusion,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Stable Diffusion
+SDXL,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Stable Diffusion
+ai literacy,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,AI Literacy
+multi-core smp,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Multi-Core SMP
+multicore smp,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Multi-Core SMP
+multi-core symmetric multiprocessing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Multi-Core SMP
+instance segmentation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Instance Segmentation
+instance-level segmentation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Instance Segmentation
+nuance nina,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Nuance Nina Virtual Assistant
+nuance nina virtual assistant,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Nuance Nina Virtual Assistant
+ml model training,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Machine Learning Model Training
+machine learning model training,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Machine Learning Model Training
+semi-supervised learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Semi-Supervised Learning
+semisupervised learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Semi-Supervised Learning
+semi supervised learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Semi-Supervised Learning
+training dataset,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Training Datasets
+google bard,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Google Bard
+google gemini,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Google Bard
+ai research,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,AI Research
+generative ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Generative AI Agents
+ai agent,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,Generative AI Agents
+ai agents,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,Generative AI Agents
+LLM agent,tier1,Case-sensitive matching; keyword cannot be part of a longer word,Agent,Generative AI Agents
+LLM agents,tier1,Case-sensitive matching; keyword cannot be part of a longer word,Agent,Generative AI Agents
+relation extraction,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Relation Extraction
+relationship extraction,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Relation Extraction
+amelia (ipsoft),tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Amelia (IPSoft)
+amelia ipsoft,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Amelia (IPSoft)
+ipsoft amelia,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Amelia (IPSoft)
+amelia by ipsoft,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Amelia (IPSoft)
+vertex ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Vertex AI
+nuance mix,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Nuance Mix
+RNN,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Recurrent Neural Network (RNN)
+RNNs,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Recurrent Neural Network (RNN)
+recurrent neural network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Recurrent Neural Network (RNN)
+automl,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Automated Machine Learning
+automated machine learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Automated Machine Learning
+UIMA,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Unstructured Information Management Architecture (UIMA)
+unstructured information management,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Unstructured Information Management Architecture (UIMA)
+operationalizing ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Operationalizing AI
+scene understanding,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Scene Understanding
+naive bayes classifier,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Naive Bayes Classifier
+naive bayes,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Naive Bayes Classifier
+bayes classifier,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Naive Bayes Classifier
+nb classifier,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Naive Bayes Classifier
+nb classifiers,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Naive Bayes Classifier
+ml.net,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,ML.NET
+topic model,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Topic Modeling
+topic models,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Topic Modeling
+topic modeling,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Topic Modeling
+text classification,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Text Classification
+NLTK,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,NLTK (NLP Analysis)
+nltk,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,NLTK (NLP Analysis)
+neural ordinary differential equation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Neural Ordinary Differential Equations
+gradient boosting,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Gradient Boosting Machines (GBM)
+gradient boosting machine,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Gradient Boosting Machines (GBM)
+adaboost,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,AdaBoost (Adaptive Boosting)
+adaptive boosting,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,AdaBoost (Adaptive Boosting)
+skimage,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,Skimage
+pinecone,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,PineCone
+sentence transformer,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Sentence Transformers
+ensemble method,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Ensemble Methods
+scikit learn,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Scikit-Learn (Python Package)
+scikit-learn,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Scikit-Learn (Python Package)
+ai development,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Artificial Intelligence Development
+artificial intelligence development,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Artificial Intelligence Development
+ai software development,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Artificial Intelligence Development
+ai product development,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Artificial Intelligence Development
+prompt engineering,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Prompt Engineering
+azure ai studio,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Azure AI Studio
+azure ai foundry,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Azure AI Studio
+azure openai studio,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Azure AI Studio
+feature engineer,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Feature Engineering
+deeplearning4j,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Deeplearning4j
+dall-e,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,DALL-E 3
+dall-e3,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,DALL-E 3
+dall-e image generator,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,DALL-E 3
+natural language generation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Natural Language Generation (NLG)
+microsoft certified: azure data scientist associate,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Microsoft Certified: Azure Data Scientist Associate
+amazon comprehend,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Amazon Comprehend
+kubeflow,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Kubeflow
+mlops,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,MLOps (Machine Learning Operations)
+machine learning operation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,MLOps (Machine Learning Operations)
+vector database,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Vector Database
+gensim,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Gensim (NLP Software)
+watson conversation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Watson Conversation
+transfer learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Transfer Learning
+unsupervised learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Unsupervised Learning
+natural language understanding,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Natural Language Understanding
+handwriting recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Handwriting Recognition
+pybrain,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Pybrain
+chatgpt integration,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,ChatGPT Integration
+chatgpt api integration,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,ChatGPT Integration
+chatgpt app integration,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,ChatGPT Integration
+LDA,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Latent Dirichlet Allocation
+latent dirichlet allocation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Latent Dirichlet Allocation
+cudnn,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Cudnn
+watson studio,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Watson Studio
+rdflib,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Rdflib
+AI risk,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GeneralAI,Artificial Intelligence Risk
+AI risks,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GeneralAI,Artificial Intelligence Risk
+artificial intelligence risk,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Artificial Intelligence Risk
+aws bedrock,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,AWS Bedrock
+bedrock (aws),tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,AWS Bedrock
+machine translation,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Neural Machine Translation (NMT)
+neural machine translation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Neural Machine Translation (NMT)
+MT with neural network,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Neural Machine Translation (NMT)
+MT with neural networks,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Neural Machine Translation (NMT)
+MT neural network,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Neural Machine Translation (NMT)
+MT neural networks,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Neural Machine Translation (NMT)
+pymc,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,PyMC
+chainer,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Chainer (Deep Learning Framework)
+mlpack,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,mlpack (C++ Library)
+activity recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Activity Recognition
+azure openai,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Azure OpenAI
+openai on azure,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Azure OpenAI
+opennlp,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Apache OpenNLP
+apache opennlp,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Apache OpenNLP
+fast.ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Fast.ai
+fastai.v2,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Fast.ai
+fastai2,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Fast.ai
+fastai library,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Fast.ai
+amazon polly,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Amazon Polly
+spiking neural network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Spiking Neural Networks
+t-sne,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,t-SNE (t-distributed Stochastic Neighbor Embedding)
+stochastic neighbor embedding,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,t-SNE (t-distributed Stochastic Neighbor Embedding)
+visual odometry,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Visual Odometry
+visual-inertial odometry,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Visual Odometry
+random forest,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Random Forest Algorithm
+openvino,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,OpenVINO
+dlib,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,Dlib (C++ Library)
+dimensionality reduction,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Nonlinear Dimensionality Reduction
+support vector machine,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Support Vector Machines (SVM)
+support vector classification,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Support Vector Machines (SVM)
+support vector regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Support Vector Machines (SVM)
+n gram,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,N Gram
+n-gram,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,N Gram
+ngram model,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,N Gram
+applications of artificial intelligence,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Applications Of Artificial Intelligence
+ai innovation,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,AI Innovation
+dialog system,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Dialog Systems
+optical flow,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Optical Flow
+content-based image retrieval,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Content-Based Image Retrieval
+conten based image retrieval,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Content-Based Image Retrieval
+image-based retrieval,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Content-Based Image Retrieval
+inference engine,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Inference Engine
+paddlepaddle,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,PaddlePaddle
+agentic ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,Agentic AI
+gaussian process,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Gaussian Process
+aws sagemaker,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,AWS SageMaker
+amazon sagemaker,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,AWS SageMaker
+pose estimation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Pose Estimation
+LUIS,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Azure AI Language Understanding (LUIS)
+microsoft luis,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Azure AI Language Understanding (LUIS)
+azure ai language understanding,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Azure AI Language Understanding (LUIS)
+language understanding intelligent service,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Azure AI Language Understanding (LUIS)
+azure language understanding,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Azure AI Language Understanding (LUIS)
+supervised learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Supervised Learning
+boltzmann machine,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Boltzmann Machine
+keysight functional,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Keysight Functional
+artificial neural network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Artificial Neural Networks
+conditional random field,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Conditional Random Fields
+q learning,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Q Learning
+q-learning,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Q Learning
+kaldi,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Kaldi
+k-NN,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,K-Nearest Neighbors Algorithm
+k-nearest neighbor,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,K-Nearest Neighbors Algorithm
+k-nearest neighbours,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,K-Nearest Neighbors Algorithm
+azure cognitive service,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Azure Cognitive Services
+azure ai service,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Azure Cognitive Services
+microsoft foundry,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Azure Cognitive Services
+microsoft cognitive service,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Azure Cognitive Services
+azure ai cognitive service,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Azure Cognitive Services
+human ai interaction,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Human AI Interaction
+human and ai interaction,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Human AI Interaction
+human–ai collaboration,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Human AI Interaction
+mathematical morphology,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Mathematical Morphology
+botpress,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Botpress
+independent component analysis,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Independent Component Analysis
+hierarchical clustering,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Hierarchical Clustering
+contextual image classification,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Contextual Image Classification
+question answering,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Question Answering
+graphlab,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Graphlab
+embedded ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Embedded AI
+artificial general intelligence,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Artificial General Intelligence
+QAOA,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GeneralAI,Quantum Approximate Optimization Algorithm (QAOA)
+quantum approximate optimization algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Quantum Approximate Optimization Algorithm (QAOA)
+XAI,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GeneralAI,Explainable AI (XAI)
+explainable ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Explainable AI (XAI)
+amazon forecast,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Amazon Forecast
+natural language toolkit,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Natural Language Toolkits
+quantum walk,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Quantum Walks
+named entity recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Named Entity Recognition
+matrix factorization,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Matrix Factorization
+azure machine learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Azure Machine Learning
+h2o.ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,H2O.ai
+h2o driverless ai,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,H2O.ai
+semantic search,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Semantic Search
+k-means,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,K-Means Clustering
+k-means clustering,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,K-Means Clustering
+k-medoids,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,K-Means Clustering
+object detection,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Object Detection
+cublas,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Cublas
+ransac,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,Ransac
+random sample consensus,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Ransac
+chatgpt prompt,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,ChatGPT Prompt
+reasoning system,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Reasoning Systems
+collaborative filtering,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Collaborative Filtering
+cmu sphinx,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Sphinx Speech Recognition
+sphinx speech recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Sphinx Speech Recognition
+image segmentation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Image Segmentation
+autogen,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Agent,AutoGen
+weka,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Weka
+lingpipe,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Lingpipe
+adobe sensei,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Adobe Sensei
+artificial intelligence system,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Artificial Intelligence Systems
+intelligent virtual assistant,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Intelligent Virtual Assistant
+ai virtual assistant,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Intelligent Virtual Assistant
+ai virtual assistants,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Intelligent Virtual Assistant
+bayesian belief network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Bayesian Belief Networks
+bayesian network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Bayesian Belief Networks
+relational data mining,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Relational Data Mining
+ridge regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Ridge/LASSO Regressions
+lasso regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Ridge/LASSO Regressions
+ridge & lasso regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Ridge/LASSO Regressions
+regularized regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Ridge/LASSO Regressions
+genai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Generative Artificial Intelligence
+generative artificial intelligence,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Generative Artificial Intelligence
+hidden markov model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Hidden Markov Model
+statsmodels,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Statsmodels
+computational linguistics,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Computational Linguistics
+AIML,tier1,Case-sensitive matching; keyword cannot be part of a longer word,NLP,Artificial Intelligence Markup Language (AIML)
+machine learning algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Machine Learning Algorithms
+generative adversarial network,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Generative Adversarial Networks
+GANs,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Generative Adversarial Networks
+bayesian probability,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Bayesian Probability
+seaborn,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Seaborn
+geopy,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Geopy
+genetic algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Genetic Algorithm
+opencv,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,OpenCV
+qdrant,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Qdrant
+transformer ml,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Transformer (Machine Learning Model)
+transformer machine learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Transformer (Machine Learning Model)
+transformer model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Transformer (Machine Learning Model)
+chatgpt,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,ChatGPT
+dask,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Dask (Software)
+syntaxnet,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,SyntaxNet
+language identification,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Language Identification
+knowledge representation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Knowledge Representation
+google automl,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Google AutoML
+natural language programming,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Natural Language Programming
+quantization,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Quantization
+machine learning method,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Machine Learning Methods
+ml method,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Machine Learning Methods
+machine learning technique,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Machine Learning Methods
+semantic analysis,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Semantic Analysis
+point cloud library,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Point Cloud Library
+kolmogorov smirnov,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Kolmogorov Smirnov
+bayesian model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Bayesian Modeling
+bayesian hierarchical model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Bayesian Modeling
+apache madlib,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Apache MADlib
+MADlib,tier1,Case-sensitive matching; keyword cannot be part of a longer word,ML,Apache MADlib
+bot framework,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Bot Framework
+pydata,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Pydata
+apache singa,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Apache SINGA
+ai security,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,AI Security
+recommender system,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Recommender Systems
+face detection,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Face Detection
+nonparametric regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Nonparametric Regression
+image recognition,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,Image Recognition
+gesture recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Gesture Recognition
+sentiment analysis,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Sentiment Analysis
+google cloud dialogflow,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Google Cloud Dialogflow
+google dialogflow,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Google Cloud Dialogflow
+data preprocessing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Data Preprocessing
+information extraction,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Information Extraction
+knowledge graph,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Knowledge Graph
+ai testing,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,AI Testing
+medical image analysis,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Medical Image Analysis
+wordnet,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,WordNet
+object recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Object Recognition
+object detection and recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Object Recognition
+object detection recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Object Recognition
+genetic programming,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Genetic Programming
+copilot studio,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Agent,Microsoft Copilot Studio
+streamlit,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Streamlit
+gurobi,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Gurobi
+disambiguation,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Disambiguation
+convex optimization,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Convex Optimization
+convex optimisation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Convex Optimization
+statistical learning theory,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Statistical Learning Theory
+amazon textract,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Amazon Textract
+aws textract,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Amazon Textract
+microsoft copilot,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Microsoft Copilot
+copilot for microsoft 365,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Microsoft Copilot
+microsoft 365 copilot,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,Microsoft Copilot
+github copilot,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,GitHub Copilot
+copilot for github,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,GitHub Copilot
+conversational ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Conversational AI
+amazon braket,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Amazon Braket
+aws bracket,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Amazon Braket
+amazon web services braket,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Amazon Braket
+openni,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,OpenNI
+evolutionary algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Evolutionary Algorithm
+language model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Language Models
+graph algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Graph Algorithms
+graph theory algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Graph Algorithms
+graph traversal algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Graph Algorithms
+graph search algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Graph Algorithms
+mixture model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Mixture Model
+google quantum ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Google Quantum AI
+quantum ai at google,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Google Quantum AI
+distributed machine learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Distributed Machine Learning
+google colab,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Google Colaboratory
+google colaboratory,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Google Colaboratory
+matplotlib,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Matplotlib (Python Package)
+language recognition,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Language Recognition
+multinomial logistic regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Multinomial Logistic Regression
+multiclass logistic regression,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Multinomial Logistic Regression
+scipy,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,SciPy
+pattern mining,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Pattern Mining
+neuro-linguistic programming,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Neuro-Linguistic Programming
+neuro linguistic programming,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Neuro-Linguistic Programming
+neurolinguistic programming,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Neuro-Linguistic Programming
+variational autoencoder,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Variational Autoencoders
+VAEs,tier1,Case-sensitive matching; keyword cannot be part of a longer word,GenAI,Variational Autoencoders
+cloud security planning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Cloud Security Planning
+template matching,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",CV,Template Matching
+check point certified managed security expert,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Check Point Certified Managed Security Expert
+check point ccmse,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Check Point Certified Managed Security Expert
+odometry,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,Odometry
+sympy,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Sympy
+numpy,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,NumPy (Python Package)
+causal inference,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Causal Inference
+cognitive computing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Cognitive Computing
+ggplot2,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Ggplot2
+game ai,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Game Ai
+game artificial intelligence,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Game Ai
+loss function,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Loss Functions
+bayesian statistics,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Bayesian Statistics
+dataspaces,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Dataspaces
+igraph,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,Igraph
+markov model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Markov Model
+text mining,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Text Mining
+text data mining,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Text Mining
+quantum annealing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GeneralAI,Quantum Annealing
+intelligent agent,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Agent,Intelligent Agent
+simultaneous equations,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Simultaneous Equations Model
+voiceflow,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,Voiceflow
+automated reasoning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Other,Automated Reasoning
+query understanding,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Query Understanding
+query intent,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Query Understanding
+query parsing,tier2,Case-insensitive matching; keyword cannot be part of a longer word,NLP,Query Understanding
+autoregressive model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",GenAI,Autoregressive Model
+discrete optimization,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Discrete Optimization
+3d reconstruction,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,3D Reconstruction
+3d scene reconstruction,tier2,Case-insensitive matching; keyword cannot be part of a longer word,CV,3D Reconstruction
+speech enhancement,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,Speech Enhancement
+hyperautomation,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",Agent,Hyperautomation
+feature selection,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Feature Selection
+feature subset selection,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,Feature Selection
+gpu optimization,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,GPU Optimization
+gpu performance optimization,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,GPU Optimization
+watson iot,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GeneralAI,Watson IoT
+libsvm,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,libsvm
+sentiment classification,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,sentiment classification
+torch ml,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,torch (machine learning)
+torch machine learning,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,torch (machine learning)
+jung framework,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,jung framework
+latent semantic analysis,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,latent semantic analysis
+latent semantic indexing,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,latent semantic analysis
+stochastic gradient descent,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,stochastic gradient descent
+maximum entropy classifier,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,maximum entropy classifier
+maximum entropy model,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",NLP,maximum entropy classifier
+em algorithm,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,expectation-maximization (em) algorithm
+expectation-maximization algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,expectation-maximization (em) algorithm
+classification algorithm,tier3,"Case-insensitive matching; text can occur anywhere, including within a longer word",ML,classification algorithms
+ai chatbox,tier2,Case-insensitive matching; keyword cannot be part of a longer word,Other,AI chatbox
+ND4J,tier2,Case-insensitive matching; keyword cannot be part of a longer word,ML,ND4J (software)
+gpt-3,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,gpt-4
+gpt-o3,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,gpt-4
+gpt-5,tier2,Case-insensitive matching; keyword cannot be part of a longer word,GenAI,gpt-4
